@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<GridPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml" fx:controller="calculator.controller">
+<padding>
+    <Insets top="10" right="10" bottom="10" left="10"/>
+</padding>
+<hgap>5</hgap>
+<vgap>5</vgap>
+
+<TextField fx:id="inputField1" GridPane.columnIndex="0" GridPane.rowIndex="0" promptText="Enter first number"/>
+<ChoiceBox fx:id="operationChoice" GridPane.columnIndex="1" GridPane.rowIndex="0">
+    <items>
+        <FXCollections fx:factory="observableArrayList">
+            <String fx:value="+"/>
+            <String fx:value="-"/>
+            <String fx:value="*"/>
+            <String fx:value="/"/>
+        </FXCollections>
+    </items>
+</ChoiceBox>
+<TextField fx:id="inputField2" GridPane.columnIndex="2" GridPane.rowIndex="0" promptText="Enter second number"/>
+<Button text="Calculate" onAction="#calculate" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+<TextField fx:id="resultField"  GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+</GridPane>
