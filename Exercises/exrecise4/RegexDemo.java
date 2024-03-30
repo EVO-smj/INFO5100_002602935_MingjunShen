@@ -1,4 +1,3 @@
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexDemo {
@@ -25,7 +24,7 @@ public class RegexDemo {
         System.out.println("Result of 5th expression matches negative case: " + Pattern.matches("\\d+", "l"));
 
         // 6. Match java files
-        System.out.println("Result of 6th expression matches positive case: " + Pattern.matches("[a-zA-Z0-9]+\\.java", "main.java"));
+        System.out.println("Result of 6th expression matches positive case: " + Pattern.matches("[a-zA-Z0-9]+\\.java", "LibApp.java"));
         System.out.println("Result of 6th expression matches negative case: " + Pattern.matches("[a-zA-Z0-9]+\\.java", "main.class"));
 
     }

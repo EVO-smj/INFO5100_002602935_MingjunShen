@@ -16,9 +16,9 @@ public class entry {
         table2.putThings();
         table3.adjustHeight();
 
-        Book book1 = new Book("Harry Porter", "JK R", 45.6, 1000);
-        Book book2 = new Book("The Little Prince", "Antoine", 12.3, 100);
-        Book book3 = new Book("Python Crash Course", "Eric", 56.6, 600);
+        Books book1 = new Books("Harry Porter", "JK R", 45.6, 1000);
+        Books book2 = new Books("The Little Prince", "Antoine", 12.3, 100);
+        Books book3 = new Books("Python Crash Course", "Eric", 56.6, 600);
         book3.open();
         book1.close();
         book2.read();

@@ -1,4 +1,4 @@
-public class Book {
+public class Books {
 
     String title;
     int pages;
@@ -9,7 +9,7 @@ public class Book {
     String language;
     boolean isSpecialVersion;
 
-    Book(String title, String author, double price, int pages) {
+    Books(String title, String author, double price, int pages) {
         this.title = title;
         this.author = author;
         this.price = price;
