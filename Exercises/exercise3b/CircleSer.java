@@ -1,8 +1,10 @@
-public class Circle extends ShapeSer {
+import java.io.*;
+
+public class CircleSer extends ShapeSer implements Serializable {
     private double radius;
     static String name = "Circle";
 
-    public Circle(String color, double radius) {
+    public CircleSer(String color, double radius) {
         super(color);
         this.radius = radius;
     }

@@ -9,10 +9,31 @@
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exrecise4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/Hackathon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise3b" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise8" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JavaFX21" level="application" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Library/Java/Extensions/json-simple-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file:///Library/Java/Extensions" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file:///Library/Java/Extensions" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>

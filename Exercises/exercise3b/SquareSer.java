@@ -1,8 +1,10 @@
-public class Square extends ShapeSer {
+import java.io.*;
+
+public class SquareSer extends ShapeSer implements Serializable {
     private double side;
     static String name = "Square";
 
-    public Square(String color, double side) {
+    public SquareSer(String color, double side) {
         super(color);
         this.side = side;
     }
