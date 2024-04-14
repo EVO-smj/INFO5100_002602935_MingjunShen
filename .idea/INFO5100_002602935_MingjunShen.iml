@@ -7,10 +7,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Exercises/exrecise4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/Hackathon" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise3b" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Exercises/exercise5" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="21" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
