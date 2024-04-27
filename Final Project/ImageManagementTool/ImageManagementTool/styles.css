@@ -1,0 +1,8 @@
+.image-info {
+  -fx-padding: 5px;
+  -fx-border-color: #000000;
+  -fx-border-width: 2px;
+  -fx-background-color: #66ccff;
+  -fx-spacing: 10px;
+  -fx-alignment: center;
+}
